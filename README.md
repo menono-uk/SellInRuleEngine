@@ -30,7 +30,7 @@ Example json request body:
     }
 ]
 
-Expected response:
+Expected json response:
 
 [
     {
