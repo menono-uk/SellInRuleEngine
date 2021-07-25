@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
+      "projectUniqueName": "C:\\_Learning\\iceland\\clean\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
       "projectName": "QualityCalculator",
-      "projectPath": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
+      "projectPath": "C:\\_Learning\\iceland\\clean\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
       "packagesPath": "C:\\Users\\clwyd\\.nuget\\packages\\",
-      "outputPath": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\obj\\",
+      "outputPath": "C:\\_Learning\\iceland\\clean\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
