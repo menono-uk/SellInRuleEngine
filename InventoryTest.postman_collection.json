@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d9f1761f-7133-4558-81f6-0e1ea8e36dad",
+		"_postman_id": "c0ae8d40-b7e6-481a-aaa5-c9951a028dec",
 		"name": "InventoryTest",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -23,7 +23,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"Name\": \"hello\",\r\n    \"SellIn\": 4,\r\n    \"Quality\": 3\r\n}"
+					"raw": "[{\r\n    \"Name\": \"Aged Brie\",\r\n    \"SellIn\": 1,\r\n    \"Quality\": 1\r\n},\r\n{\r\n    \"Name\": \"Christmas Crackers\",\r\n    \"SellIn\": -1,\r\n    \"Quality\": 2\r\n},\r\n{\r\n    \"Name\": \"Christmas Crackers\",\r\n    \"SellIn\": 9,\r\n    \"Quality\": 2\r\n},\r\n{\r\n    \"Name\": \"Soap\",\r\n    \"SellIn\": 2,\r\n    \"Quality\": 2\r\n},\r\n{\r\n    \"Name\": \"Frozen Item\",\r\n    \"SellIn\": -1,\r\n    \"Quality\": 55\r\n},\r\n{\r\n    \"Name\": \"Frozen Item\",\r\n    \"SellIn\": 2,\r\n    \"Quality\": 2\r\n},\r\n{\r\n    \"Name\": \"INVALID ITEMm\",\r\n    \"SellIn\": 2,\r\n    \"Quality\": 2\r\n},\r\n{\r\n    \"Name\": \"Fresh Item\",\r\n    \"SellIn\": 2,\r\n    \"Quality\": 2\r\n},\r\n{\r\n    \"Name\": \"Fresh Item\",\r\n    \"SellIn\": -1,\r\n    \"Quality\": 5\r\n}\r\n]"
 				},
 				"url": {
 					"raw": "http://localhost:6391/itemquality",
