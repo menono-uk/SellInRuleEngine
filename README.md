@@ -3,7 +3,7 @@
 
 
 ## Overview
-The QualityCalculator library is a .Net Core 3.1 library for applying business rules/policies to a supemarket's inventory. It's purpose is to automate the process of updating an inventory item's quality and sell in values on a daily basis. The library is a simple Rules Engine that applies a set of rules classes implemented in the library. These are loaded at runtime into a rules engine which then applies the relevant rules to a list of inventory data and returns the updated inventory.
+The QualityCalculator library is a .Net Core 3.1 library for applying business rules/policies to a supemarket's inventory. It's purpose is to automate the process of updating an inventory item's quality and sell in values on a daily basis. The library is based on a simple Rules Engine architecture consisting of an engine that manages a collection of rules objects and applies them to the inventory data. 
 
 ## Installation
 
@@ -47,7 +47,8 @@ Expected json response:
 
 
 ## How it works
-The libary is an implementation of a Rules Pattern.  Using predefined set of rules classes which are loaded dynamically at runtime. 
+The libary is an implementation of a Rules Pattern.  Using predefined set of rules classes which are loaded dynamically at runtime. The engine then applies the relevant rule to each inventory item and returns the updated inventory data to the client.
+ 
 
 ## Contributing
 
