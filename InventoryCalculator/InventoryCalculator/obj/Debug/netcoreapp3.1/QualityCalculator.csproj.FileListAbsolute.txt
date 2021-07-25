@@ -1,0 +1,8 @@
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\obj\Debug\netcoreapp3.1\QualityCalculator.AssemblyInfoInputs.cache
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\obj\Debug\netcoreapp3.1\QualityCalculator.AssemblyInfo.cs
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\obj\Debug\netcoreapp3.1\QualityCalculator.csproj.CoreCompileInputs.cache
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\bin\Debug\netcoreapp3.1\QualityCalculator.deps.json
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\bin\Debug\netcoreapp3.1\QualityCalculator.dll
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\bin\Debug\netcoreapp3.1\QualityCalculator.pdb
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\obj\Debug\netcoreapp3.1\QualityCalculator.dll
+C:\_Learning\iceland\final\InventoryCalculator\InventoryCalculator\obj\Debug\netcoreapp3.1\QualityCalculator.pdb
