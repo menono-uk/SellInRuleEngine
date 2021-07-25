@@ -37,7 +37,7 @@ Example json request body:
 
 
 ## How it works
-The libary is an implementation of a Rules Pattern.  Using predefined set of rules classes which are loaded dunamically from the libarary at runtime. 
+The libary is an implementation of a Rules Pattern.  Using predefined set of rules classes which are loaded dynamically at runtime. 
 
 ## Contributing
 
