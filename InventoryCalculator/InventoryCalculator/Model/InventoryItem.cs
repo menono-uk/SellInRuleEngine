@@ -1,5 +1,6 @@
 ﻿using InventoryCalculator.Interfaces;
 using System;
+using System.Collections.Generic;
 
 namespace InventoryCalculator.Model
 {

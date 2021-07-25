@@ -1,6 +1,7 @@
 ﻿using InventoryCalculator;
 using InventoryCalculator.Interfaces;
 using InventoryCalculator.Model;
+using ItemQualityService.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using RulesEngine.Exceptions;
@@ -27,16 +28,17 @@ namespace ItemQualityService.Controllers
         }
 
         [HttpPost]
-        public List<ISellInData> UpdateInventory(List<ISellInData> items)
+        public List<StockItem> UpdateInventory(List<StockItem> items)
         {
-            List<ISellInData> result = new List<ISellInData>();
+            List<StockItem> result = null;
             try
             {
-                result = _Calculator.Calculate(items);
+                result = Copier.Copy(_Calculator.Calculate(Copier.Copy(items)));
             }
-            catch
+            catch (Exception ex)
             {
-                //not implemented
+                //client error response undefined - not implemented/TBD
+                throw new NotImplementedException(ex.Message, ex.InnerException);
             }
 
             return result;

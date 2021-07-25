@@ -33,7 +33,7 @@ namespace InventoryCalculator
         {
             List<ISellInData> updateItems = new List<ISellInData>();
 
-            if(!InventoryDataValidator.IsValid(updateItems))
+            if(!InventoryDataValidator.IsValid(items))
             {
                 throw new InputDataException(Constants.INPUT_DATA_ERRMSG);
             }

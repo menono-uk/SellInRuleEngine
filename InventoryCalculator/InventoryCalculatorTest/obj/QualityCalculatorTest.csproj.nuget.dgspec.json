@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj": {}
+    "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj": {}
   },
   "projects": {
-    "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj": {
+    "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj",
+        "projectUniqueName": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj",
         "projectName": "QualityCalculatorTest",
-        "projectPath": "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj",
+        "projectPath": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculatorTest\\QualityCalculatorTest.csproj",
         "packagesPath": "C:\\Users\\clwyd\\.nuget\\packages\\",
-        "outputPath": "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculatorTest\\obj\\",
+        "outputPath": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculatorTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj": {
-                "projectPath": "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj"
+              "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj": {
+                "projectPath": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj": {
+    "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
+        "projectUniqueName": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
         "projectName": "QualityCalculator",
-        "projectPath": "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
+        "projectPath": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\QualityCalculator.csproj",
         "packagesPath": "C:\\Users\\clwyd\\.nuget\\packages\\",
-        "outputPath": "C:\\_Learning\\iceland\\final\\InventoryCalculator\\InventoryCalculator\\obj\\",
+        "outputPath": "C:\\_Learning\\iceland\\remotegitrepo\\SellInRuleEngine\\SellInRuleEngine\\InventoryCalculator\\InventoryCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
