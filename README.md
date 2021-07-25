@@ -24,9 +24,19 @@ Example json request body:
         "quality": 4
     },
     {
+        "name": "INVALID ITEM",
+        "sellIn": 4,
+        "quality": 3
+    }
+]
+
+Expected response:
+
+[
+    {
         "name": "Aged Brie",
-        "sellIn": -1,
-        "quality": 0
+        "sellIn": 2,
+        "quality": 5
     },
     {
         "name": "NO SUCH ITEM",
