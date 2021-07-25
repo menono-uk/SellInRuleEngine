@@ -3,7 +3,7 @@
 
 
 ## Overview
-Rules Engine is a .net core library for applying business logic/rules/policies to a supemarket's inventory. It's purpose is to update an item's daily quality and sell in values. The library works as a Rules Engine, applying a set of compile time rules objects to a list of inventory data.
+The QualityCalculator library is a .net core library for applying business rules/policies to a supemarket's inventory data. It's purpose is to update an item's quality and sell in values on a daily basis. The library is a simple Rules Engine pattern, applying a set of compile time rules taken from classes implemented in the library. These are then loaded at runtime into a rules engine which then applies the relevant rules to a list of inventory data.
 
 ## Installation
 
@@ -11,9 +11,9 @@ not applicable
 
 ## How to use it
 
-A Visual Studio .Net Core solution (2019 v 16.9 or higher) has been created to allow the functionality to be run and tested.  The solution consisting of a Unit Test project of prexisting developent tests. A 'bare bones' Web API service (no https/client authentication etc.. is required to use it) to test/run the Library;s functionality as a simple web service.  To run the service, the simplest way is to load the solution using Visual Studio and run it on IISExpress.  The service can then be consumed using Postman POST requests with json test data setg in the request body (see example beloe):
+This is a Visual Studio .Net Core solution (requires 2019 v16.9 or higher) which has been created to allow the functionality to be run and tested.  The solution consisting of a Unit Test project of prexisting developent tests. A 'bare bones' Web API service (no https/client authentication etc.. is required to use it) to test/run the web service.  To run the service, the simplest way is to load the solution into Visual Studio and run it on IISExpress.  The service can then be consumed using Postman POST requests with json test data set in the request body (see example beloe):
 
-Example json request:
+Example json request body:
 
 [
     {
@@ -35,8 +35,7 @@ Example json request:
 
 
 ## How it works
-T
-The libary is an implementation of a Rules Pattern.  Using predefined set of rules which are loaded dunamically from the libarary at runtime.
+The libary is an implementation of a Rules Pattern.  Using predefined set of rules which are loaded dunamically from the libarary at runtime. 
 
 ## Contributing
 
