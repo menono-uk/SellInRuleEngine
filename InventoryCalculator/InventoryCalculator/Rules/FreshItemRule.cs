@@ -30,7 +30,7 @@ namespace InventoryCalculator.Rules
                 item.Quality += ExpiredSellByQualityChange;
             }
 
-            item.Quality = RangeSetter.Set(item.Quality, 0, 50);
+            item.Quality = RangeSetter.Set(item.Quality, QualityMin, QualityMax);
             item.SellIn += DailySellInChange;
 
             return item;

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ItemQualityService.Model
 {
-    public class Copier
+    public class Transformer
     {
-        public static List<ISellInData> Copy(List<StockItem> items)
+        public static List<ISellInData> Convert(List<StockItem> items)
         {
             List<ISellInData> copied = new List<ISellInData>();
 
@@ -29,7 +29,7 @@ namespace ItemQualityService.Model
             return copied;
         }
 
-        public static  List<StockItem> Copy(List<ISellInData> items)
+        public static  List<StockItem> Convert(List<ISellInData> items)
         {
             List<StockItem> copied = new List<StockItem>();
 

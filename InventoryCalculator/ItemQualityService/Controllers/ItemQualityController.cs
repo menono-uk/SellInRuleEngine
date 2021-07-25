@@ -33,7 +33,7 @@ namespace ItemQualityService.Controllers
             List<StockItem> result = null;
             try
             {
-                result = Copier.Copy(_Calculator.Calculate(Copier.Copy(items)));
+                result = Transformer.Convert(_Calculator.Calculate(Transformer.Convert(items)));
             }
             catch (Exception ex)
             {

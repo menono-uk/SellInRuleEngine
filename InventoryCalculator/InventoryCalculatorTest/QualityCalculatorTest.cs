@@ -144,40 +144,18 @@ namespace InventoryCalculator
         }
 
         [Theory]
-        [InlineData(1, .05)]
-        [InlineData(2, .08)]
-        [InlineData(5, .10)]
-        [InlineData(10, .12)]
-        [InlineData(15, .15)]
+        [InlineData(1, 5)]
+        [InlineData(2, 8)]
+        [InlineData(5, 60)]
+        [InlineData(10, 2)]
+        [InlineData(150, 5)]
         public void ReturnsCorrectLoyaltyDiscountForLongtimeitems(int sellin, int quality)
         {
             var item = CreateInventoryItem("", sellin, quality);
 
             var result = _calculator.Calculate(item);
-        }
 
-        [Theory]
-        [InlineData(1, .15)]
-        [InlineData(2, .18)]
-        [InlineData(5, .20)]
-        [InlineData(10, .22)]
-        [InlineData(15, .25)]
-        public void ReturnsCorrectLoyaltyDiscountForLongtimeitemsOnTheirBirthday(int sellin, int quality)
-        {
-            var item = CreateInventoryItem("", sellin, quality);
-
-            var result = _calculator.Calculate(item);
-
-        }
-
-        [Theory]
-        [InlineData(1,3)]
-        [InlineData(2,8)]
-        public void ReturnsVeteransDiscountForLoyal1And2YearitemsOnBirthday(int sellin, int quality)
-        {
-            var item = CreateInventoryItem("", sellin, quality);
-
-            var result = _calculator.Calculate(item);
+            Assert.NotNull(result);
         }
 
 
