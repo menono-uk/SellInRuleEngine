@@ -1,4 +1,4 @@
-# Automate Inventory Manager
+# Automate Inventory Management
 ![build](https://github.com/menono-uk/SellInRuleEngine.git)
 
 
