@@ -3,7 +3,7 @@
 
 
 ## Overview
-Rules Engine is a .net core library for applying business logic/rules/policies to a supemarket's inventory. It's purpose is to update an item's quality and sell in values. The library works as a Rules Engine, applying a set of compile time rules objects to a list of inventory data.
+Rules Engine is a .net core library for applying business logic/rules/policies to a supemarket's inventory. It's purpose is to update an item's daily quality and sell in values. The library works as a Rules Engine, applying a set of compile time rules objects to a list of inventory data.
 
 ## Installation
 
