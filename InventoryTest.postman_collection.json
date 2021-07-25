@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "d9f1761f-7133-4558-81f6-0e1ea8e36dad",
+		"name": "InventoryTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:6391/",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"hello\",\r\n    \"SellIn\": 4,\r\n    \"Quality\": 3\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:6391/itemquality",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6391",
+					"path": [
+						"itemquality"
+					]
+				},
+				"description": "sdsd"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
