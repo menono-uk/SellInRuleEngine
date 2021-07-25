@@ -11,7 +11,7 @@ not applicable
 
 ## How to use it
 
-This is a Visual Studio .Net Core solution (requires 2019 v16.9 or higher) which has been created to allow the functionality to be run and tested.  The solution consisting of a Unit Test project of prexisting developent tests. A 'bare bones' Web API service (no https/client authentication etc.. is required to use it) to test/run the web service.  To run the service, the simplest way is to load the solution into Visual Studio and run it on IISExpress. The service can then be consumed using Postman.  A postman collection file is included with the project root directory (InventoryTest.postman_collection.json).  Call to the web service involves a http POST request with test data set in the request body (see example beloe):
+This is a Visual Studio .Net Core solution (requires 2019 v16.9 or higher) which has been created to allow the functionality to be run and tested.  The solution consisting of a Unit Test project of prexisting developent tests. A 'bare bones' Web API service (no https/client authentication etc.. is required to use it) to test/run through a web service.  To run the service, the simplest way is to load the solution into Visual Studio and run it on IISExpress. The service can then be consumed using Postman.  A postman collection file is included with the project root directory (InventoryTest.postman_collection.json).  Call to the web service involves a http POST request with test data set in the request body (see example beloe):
 
 POST http://localhost:6391/itemquality
 
